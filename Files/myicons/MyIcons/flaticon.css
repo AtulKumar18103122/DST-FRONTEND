@@ -1,0 +1,309 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 14px;
+        font-style: normal;
+        margin-left: -3px;
+        margin-right: 3px;
+
+}.flaticon-administrator1:before {
+	content: "\e000";
+}
+.flaticon-atom1:before {
+	content: "\e001";
+}
+.flaticon-atom2:before {
+	content: "\e002";
+}
+.flaticon-biology1:before {
+	content: "\e003";
+}
+.flaticon-biology5:before {
+	content: "\e004";
+}
+.flaticon-book253:before {
+	content: "\e005";
+}
+.flaticon-browser13:before {
+	content: "\e006";
+}
+.flaticon-business162:before {
+	content: "\e007";
+}
+.flaticon-businessman46:before {
+	content: "\e008";
+}
+.flaticon-celebration10:before {
+	content: "\e009";
+}
+.flaticon-chemistry3:before {
+	content: "\e00a";
+}
+.flaticon-cogwheel33:before {
+	content: "\e00b";
+}
+.flaticon-comedy2:before {
+	content: "\e00c";
+}
+.flaticon-connected22:before {
+	content: "\e00d";
+}
+.flaticon-connection31:before {
+	content: "\e00e";
+}
+.flaticon-crowd:before {
+	content: "\e00f";
+}
+.flaticon-educative2:before {
+	content: "\e010";
+}
+.flaticon-eeuu4:before {
+	content: "\e011";
+}
+.flaticon-eeuu7:before {
+	content: "\e012";
+}
+.flaticon-eeuu9:before {
+	content: "\e013";
+}
+.flaticon-empire1:before {
+	content: "\e014";
+}
+.flaticon-factory14:before {
+	content: "\e015";
+}
+.flaticon-girl50:before {
+	content: "\e016";
+}
+.flaticon-graduate5:before {
+	content: "\e017";
+}
+.flaticon-group2:before {
+	content: "\e018";
+}
+.flaticon-hand179:before {
+	content: "\e019";
+}
+.flaticon-harddisc:before {
+	content: "\e01a";
+}
+.flaticon-home24:before {
+	content: "\e01b";
+}
+.flaticon-home71:before {
+	content: "\e01c";
+}
+.flaticon-house133:before {
+	content: "\e01d";
+}
+.flaticon-house3:before {
+	content: "\e01e";
+}
+.flaticon-house44:before {
+	content: "\e01f";
+}
+.flaticon-id3:before {
+	content: "\e020";
+}
+.flaticon-international35:before {
+	content: "\e021";
+}
+.flaticon-keyword:before {
+	content: "\e022";
+}
+.flaticon-lab3:before {
+	content: "\e023";
+}
+.flaticon-light96:before {
+	content: "\e024";
+}
+.flaticon-link92:before {
+	content: "\e025";
+}
+.flaticon-list20:before {
+	content: "\e026";
+}
+.flaticon-magnifier14:before {
+	content: "\e027";
+}
+.flaticon-magnifier16:before {
+	content: "\e028";
+}
+.flaticon-magnifier48:before {
+	content: "\e029";
+}
+.flaticon-magnifier78:before {
+	content: "\e02a";
+}
+.flaticon-magnifying31:before {
+	content: "\e02b";
+}
+.flaticon-magnifyingglass41:before {
+	content: "\e02c";
+}
+.flaticon-male157:before {
+	content: "\e02d";
+}
+.flaticon-male210:before {
+	content: "\e02e";
+}
+.flaticon-male226:before {
+	content: "\e02f";
+}
+.flaticon-male89:before {
+	content: "\e030";
+}
+.flaticon-medical109:before {
+	content: "\e031";
+}
+.flaticon-men16:before {
+	content: "\e032";
+}
+.flaticon-molecule15:before {
+	content: "\e033";
+}
+.flaticon-network3:before {
+	content: "\e034";
+}
+.flaticon-network65:before {
+	content: "\e035";
+}
+.flaticon-numbered10:before {
+	content: "\e036";
+}
+.flaticon-operator1:before {
+	content: "\e037";
+}
+.flaticon-physics5:before {
+	content: "\e038";
+}
+.flaticon-profile8:before {
+	content: "\e039";
+}
+.flaticon-research4:before {
+	content: "\e03a";
+}
+.flaticon-running34:before {
+	content: "\e03b";
+}
+.flaticon-savings1:before {
+	content: "\e03c";
+}
+.flaticon-school1:before {
+	content: "\e03d";
+}
+.flaticon-school2:before {
+	content: "\e03e";
+}
+.flaticon-school37:before {
+	content: "\e03f";
+}
+.flaticon-school50:before {
+	content: "\e040";
+}
+.flaticon-school72:before {
+	content: "\e041";
+}
+.flaticon-sciences:before {
+	content: "\e042";
+}
+.flaticon-search103:before {
+	content: "\e043";
+}
+.flaticon-search109:before {
+	content: "\e044";
+}
+.flaticon-search112:before {
+	content: "\e045";
+}
+.flaticon-search5:before {
+	content: "\e046";
+}
+.flaticon-searching27:before {
+	content: "\e047";
+}
+.flaticon-searching33:before {
+	content: "\e048";
+}
+.flaticon-settings21:before {
+	content: "\e049";
+}
+.flaticon-socialnetwork12:before {
+	content: "\e04a";
+}
+.flaticon-society:before {
+	content: "\e04b";
+}
+.flaticon-state:before {
+	content: "\e04c";
+}
+.flaticon-student1:before {
+	content: "\e04d";
+}
+.flaticon-suitcase13:before {
+	content: "\e04e";
+}
+.flaticon-suitcase58:before {
+	content: "\e04f";
+}
+.flaticon-teacher9:before {
+	content: "\e050";
+}
+.flaticon-test-tube4:before {
+	content: "\e051";
+}
+.flaticon-three115:before {
+	content: "\e052";
+}
+.flaticon-time58:before {
+	content: "\e053";
+}
+.flaticon-two174:before {
+	content: "\e054";
+}
+.flaticon-urban7:before {
+	content: "\e055";
+}
+.flaticon-user154:before {
+	content: "\e056";
+}
+.flaticon-user161:before {
+	content: "\e057";
+}
+.flaticon-user30:before {
+	content: "\e058";
+}
+.flaticon-users39:before {
+	content: "\e059";
+}
+.flaticon-vegetable9:before {
+	content: "\e05a";
+}
+.flaticon-woman105:before {
+	content: "\e05b";
+}
+.flaticon-woman139:before {
+	content: "\e05c";
+}
+.flaticon-woman150:before {
+	content: "\e05d";
+}
+.flaticon-world75:before {
+	content: "\e05e";
+}
+.flaticon-worldwide1:before {
+	content: "\e05f";
+}
+.flaticon-zoom70:before {
+	content: "\e060";
+}

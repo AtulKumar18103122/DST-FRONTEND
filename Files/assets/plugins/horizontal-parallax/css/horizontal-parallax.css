@@ -1,0 +1,364 @@
+.sequence-inner,
+.sequence-inner h2,
+.sequence-inner .info p
+{
+	background: none;
+}
+.sequence-inner
+{
+	background: #b0c5ce;
+}
+#sequence-theme
+{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	
+	max-width: 2560px;
+	float:left;
+	position: relative;
+	webkit-backface-visibility: hidden;
+}
+#sequence-theme .next,
+#sequence-theme .prev
+{
+	color: white;
+	cursor: pointer;
+	display: none;
+	font-size: 80px;
+	font-weight: bold;
+	height: 41px;
+	moz-transition-duration: 0.4s;
+	ms-transition-duration: 0.4s;
+	opacity: 0.4;
+	o-transition-duration: 0.4s;
+	position: absolute;
+	top: 50%;
+	transition-duration: 0.4s;
+	webkit-transition-duration: 0.4s;
+	width: 39px;
+	z-index: 20;
+}
+#sequence-theme .prev
+{
+	left: 30px;
+	position: absolute;
+}
+#sequence-theme .next
+{
+	position: absolute;
+	right: 30px;
+}
+#sequence-theme .next:hover,
+#sequence-theme .prev:hover
+{
+	moz-transform: scale(1.2);
+	moz-transition-duration: 0.4s;
+	ms-transform: scale(1.2);
+	ms-transition-duration: 0.4s;
+	opacity: 1;
+	o-transform: scale(1.2);
+	o-transition-duration: 0.4s;
+	transform: scale(1.2);
+	transition-duration: 0.4s;
+	webkit-transform: scale(1.2);
+	webkit-transition-duration: 0.4s;
+}
+#sequence-theme #sequence li > *
+{
+	position: absolute;
+}
+#sequence-theme #sequence
+{
+	margin: 0 auto;
+	max-width: 1400px;
+	min-height: 420px;
+	position: relative;
+}
+#sequence-theme .info
+{
+	font-size: 1.5em;
+	line-height: 1.4em;
+	moz-transition-duration: 4s;
+	ms-transition-duration: 4s;
+	o-transition-duration: 4s;
+	right: 150%;
+	top: 120px;
+	transition-duration: 4s;
+	vertical-align: middle;
+	webkit-transition-duration: 4s;
+	width: 40%;
+	z-index: 10;
+}
+#sequence-theme h2
+{
+	background: #fff;
+	box-shadow: none;
+	color: #062149;
+	display: inline-block;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 1.2em;
+	margin-bottom: 0px;
+	margin-right: 370px;
+	margin-top: 42px;
+	padding: 5px 8px;
+	border-top-left-radius: 14px !important;
+	border-bottom-right-radius: 14px !important;
+}
+#sequence-theme h3
+{
+	font-size: 17px;
+	margin-left: -270px;
+	margin-top: 12px;
+}
+#sequence-theme .info p
+{
+	background: rgba(71, 101, 160, 0.8);
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+#sequence-theme .animate-in .info
+{
+	moz-transition-duration: 4s;
+	ms-transition-duration: 4s;
+	o-transition-duration: 4s;
+	right: 15%;
+	transition-duration: 4s;
+	webkit-transition-duration: 4s;
+}
+#sequence-theme .animate-out .info
+{
+	moz-transition-duration: 4s;
+	ms-transition-duration: 4s;
+	o-transition-duration: 4s;
+	right: -150%;
+	transition-duration: 4s;
+	webkit-transition-duration: 4s;
+}
+#sequence-theme .balloon
+{
+	left: -140%;
+	max-width: 100%;
+	moz-transition-property: left top;
+	ms-transition-property: left top;
+	o-transition-property: left top;
+	top: 150px;
+	transition-property: left top;
+	webkit-transition-property: left top;
+	z-index: 6;
+}
+#sequence-theme .animate-in .balloon
+{
+	moz-transition-duration: 4s;
+	moz-transition-property: left top;
+	ms-transition-duration: 4s;
+	ms-transition-property: left top;
+	o-transition-duration: 4s;
+	o-transition-property: left top;
+	transition-duration: 4s;
+	transition-property: left top;
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top;
+	z-index: 4;
+}
+#sequence-theme .animate-out .balloon
+{
+	left: 140%;
+	moz-transition-duration: 4s;
+	moz-transition-property: left top;
+	ms-transition-duration: 4s;
+	ms-transition-property: left top;
+	o-transition-duration: 4s;
+	o-transition-property: left top;
+	top: -30px;
+	transition-duration: 4s;
+	transition-property: left top;
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top;
+	z-index: 2;
+}
+#sequence-theme .aeroplane
+{
+	left: -50%;
+	max-width: 40%;
+	moz-transition-property: left top;
+	ms-transition-property: left top;
+	o-transition-property: left top;
+	top: 800px;
+	transition-property: left top;
+	webkit-transition-property: left top;
+	z-index: 6;
+}
+#sequence-theme .animate-in .aeroplane
+{
+	left: 10%;
+	moz-transform: rotate(20deg);
+	moz-transition-duration: 4s;
+	moz-transition-property: left top -moz-transform;
+	ms-transform: rotate(20deg);
+	ms-transition-duration: 4s;
+	ms-transition-property: left top -ms-transform;
+	o-transform: rotate(20deg);
+	o-transition-duration: 4s;
+	o-transition-property: left top -o-transform;
+	top: 100px;
+	transform: rotate(20deg);
+	transition-duration: 4s;
+	transition-property: left top transform;
+	webkit-transform: rotate(20deg);
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top -webkit-transform;
+	z-index: 4;
+}
+#sequence-theme .animate-out .aeroplane
+{
+	left: 70%;
+	moz-transform: rotate(40deg);
+	moz-transition-duration: 4s;
+	moz-transition-property: left top -moz-transform;
+	ms-transform: rotate(40deg);
+	ms-transition-duration: 4s;
+	ms-transition-property: left top -ms-transform;
+	o-transform: rotate(40deg);
+	o-transition-duration: 4s;
+	o-transition-property: left top -o-transform;
+	top: -900px;
+	transform: rotate(40deg);
+	transition-duration: 4s;
+	transition-property: left top transform;
+	webkit-transform: rotate(40deg);
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top -webkit-transform;
+	z-index: 2;
+}
+#sequence-theme .sky
+{
+	height: auto;
+	left: -6%;
+	moz-transition-property: left top;
+	ms-transition-property: left top;
+	opacity: 0;
+	o-transition-property: left top;
+	top: 0;
+	transition-property: left top;
+	vertical-align: middle;
+	webkit-transition-property: left top;
+	width: 100%;
+	z-index: 1;
+}
+#sequence-theme .animate-in .sky
+{
+	left: 0%;
+	moz-transition-duration: 4s;
+	moz-transition-property: left top;
+	ms-transition-duration: 4s;
+	ms-transition-property: left top;
+	opacity: 1;
+	o-transition-duration: 4s;
+	o-transition-property: left top;
+	top: 0;
+	transition-duration: 4s;
+	transition-property: left top;
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top;
+	z-index: 1;
+}
+#sequence-theme .animate-out .sky
+{
+	left: 6%;
+	moz-transition-duration: 4s;
+	moz-transition-property: left top;
+	ms-transition-duration: 4s;
+	ms-transition-property: left top;
+	opacity: 0;
+	o-transition-duration: 4s;
+	o-transition-property: left top;
+	top: 0;
+	transition-duration: 4s;
+	transition-property: left top;
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top;
+	z-index: 1;
+}
+#sequence-theme .kite
+{
+	left: -30%;
+	max-width: 40%;
+	moz-transform-origin: 100%;
+	moz-transition-property: left top;
+	ms-transform-origin: 100%;
+	ms-transition-property: left top;
+	opacity: 0;
+	o-transform-origin: 100%;
+	o-transition-property: left top;
+	top: 300px;
+	transform-origin: 100%;
+	transition-property: left top;
+	webkit-transform-origin: 100%;
+	webkit-transition-property: left top;
+	z-index: 6;
+}
+#sequence-theme .animate-in .kite
+{
+	left: -15%;
+	moz-transform: rotate(80deg);
+	moz-transform-origin: 100%;
+	moz-transition-duration: 4s;
+	moz-transition-property: left top -moz-transform;
+	ms-transform: rotate(80deg);
+	ms-transform-origin: 100%;
+	ms-transition-duration: 4s;
+	ms-transition-property: left top -ms-transform;
+	opacity: 1;
+	o-transform: rotate(80deg);
+	o-transform-origin: 100%;
+	o-transition-duration: 4s;
+	o-transition-property: left top -o-transform;
+	top: 300px;
+	transform: rotate(80deg);
+	transform-origin: 100%;
+	transition-duration: 4s;
+	transition-property: left top transform;
+	webkit-transform: rotate(80deg);
+	webkit-transform-origin: 100%;
+	webkit-transition-duration: 4s;
+	webkit-transition-property: left top -webkit-transform;
+	z-index: 4;
+}
+#sequence-theme .animate-out .kite
+{
+	left: -15%;
+	moz-transform: rotate(200deg);
+	moz-transform-origin: 100%;
+	moz-transition-duration: 3s;
+	moz-transition-property: left top -moz-transform;
+	ms-transform: rotate(200deg);
+	ms-transform-origin: 100%;
+	ms-transition-duration: 3s;
+	ms-transition-property: left top -ms-transform;
+	opacity: 0;
+	o-transform: rotate(200deg);
+	o-transform-origin: 100%;
+	o-transition-duration: 3s;
+	o-transition-property: left top -o-transform;
+	top: 300px;
+	transform: rotate(200deg);
+	transform-origin: 100%;
+	transition-duration: 3s;
+	transition-property: left top transform;
+	webkit-transform: rotate(200deg);
+	webkit-transform-origin: 100%;
+	webkit-transition-duration: 3s;
+	webkit-transition-property: left top -webkit-transform;
+	z-index: 2;
+}
+#sequence-theme .sequence-fallback .animate-in .kite
+{
+	left: 20%;
+	top: 200px;
+}
+#sequence-theme ul
+{
+	list-style: none;
+}

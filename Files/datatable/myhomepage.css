@@ -1,0 +1,55 @@
+.flaticon{font-family:Flaticon;font-size:18px;font-style:normal;margin-left:-2px;margin-right:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+#sequence-theme #sequence{min-height:340px;margin:0 auto;position:relative;max-width:1400px;}
+#sequence-theme .info{font-size:1.2em;right:150%;line-height:1.4em;top:50px;width:40%;z-index:10;vertical-align:middle;-webkit-transition-duration:4s;-moz-transition-duration:4s;-ms-transition-duration:4s;-o-transition-duration:4s;transition-duration:4s;}
+#sequence-theme .info p{color:#fff;font-size:16px;padding:5px 10px;}
+#sequence-theme .animate-in .balloon{left:15%;top:30px;-webkit-transition-duration:4s;-moz-transition-duration:4s;-ms-transition-duration:4s;-o-transition-duration:4s;transition-duration:4s;-webkit-transition-property:left top;-moz-transition-property:left top;-ms-transition-property:left top;-o-transition-property:left top;transition-property:left top;z-index:4;}
+.verticals{border-left:1px solid grey;}
+.shift{padding:0 0 0 10px;}
+h3.heading-md{line-height:22px;padding:0 0 0 30px;}
+.service-block-v6 i{float:left;margin:-3px 4px 0 0;}
+.content-sm{padding-top:10px;padding-bottom:10px;}
+.content{padding-top:5px;padding-bottom:5px;}
+.service-desc{font-size:16px;margin-top:20px;}
+.col-sm-6{padding:10px 10px 10px 10px;}
+.title-box{font-size:16px;text-align:center;padding:0px 0px 5px 0px;border-bottom:solid 1px #eee;}
+.promo-box{padding:5px;margin:25px 0 20px;text-align:center;}
+.info-blocks i.icon-info-blocks{float:left;color:#4765A0;font-size:16px;min-width:0px;margin-top:0px;text-align:center;}
+.info-blocks .info-blocks-in p{font-size:16px;}
+.info-blocks{margin-bottom:0px;}
+.info-blocks .info-blocks-in{padding:0 0px;}
+*::before, *::after{box-sizing:border-box;}
+*::before, *::after{box-sizing:border-box;}
+.resized{font-size:14px;}
+.stylnone{list-style: none;padding:0px 0px 0px 0px;background-color: #F7F7F7;margin:0px 0px 0px 0px;}
+.acc-v1 .panel-heading a {
+    display: block;
+    font-size: 14px;
+    padding: 5px 15px;
+    background: #4765A0;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #F7F7F7;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-body {
+    padding: 0px 15px 0px 15px;
+}
+label {
+    color: #409DD3;
+}
+.panel-group {
+    margin-bottom: 10px;
+}
+label {
+    display: -webkit-box;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-size: 12px;
+}
