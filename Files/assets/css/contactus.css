@@ -1,0 +1,26 @@
+main .content .contactus{
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+  main .content .contactus .map iframe{
+    border:black 5px solid;
+    width: 100%;
+    height: 100%;
+  }
+  main .content .contactus .info{
+    margin-left: 25px;
+    overflow: auto;
+  }
+  main .content .contactus .info a{
+    text-decoration: none;
+    color: #000;
+  }
+  main .content .contactus .info a:hover{
+    color: #4c9cdf;
+    text-decoration: underline;
+    font-size: 1.1em;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+  }

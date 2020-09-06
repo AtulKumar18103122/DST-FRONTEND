@@ -1,0 +1,25 @@
+main{
+  padding: 2%;
+  width: 95%;
+  color: black;
+}
+main #content-1{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 30px;
+}
+
+main .content h1{
+  padding-bottom: 30px;
+}
+main .content h2{
+    padding: 5% 0;
+}
+main .content p{
+    padding: 1%;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #1e1e1e;
+}

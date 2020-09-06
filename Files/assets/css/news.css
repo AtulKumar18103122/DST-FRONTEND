@@ -1,0 +1,36 @@
+main .news{
+    padding: 8% 5% 8% 5%;
+    margin-top: 20%;
+    margin-right: 15px;
+    max-height: 360px;
+}
+main .news #news_content
+{
+  padding: 10px;
+  width: 100%;
+}
+  main .news h2{
+    border-bottom: 4px solid #006699;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    word-spacing: 4px;
+  }
+  main .news ul{
+    padding: 2% 1% 1% 5%;
+  }
+  main .news ul li{
+    padding: 2%;
+  }
+  main .news ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #006699;
+  }
+  main .news ul li a:hover{
+      font-size: 1.1em;
+      -webkit-transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -ms-transition: all 0.35s ease-in-out;
+      transition: all 0.35s ease-in-out;
+  }
