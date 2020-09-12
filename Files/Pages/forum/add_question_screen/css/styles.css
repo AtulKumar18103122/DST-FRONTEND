@@ -1,0 +1,47 @@
+:root{
+    --primary-blue:#083b4f;
+    --heading-grey:#555;
+    --color-white:#fff;
+}
+*{
+    font-size: 14px;
+}
+
+button:focus, input:focus{
+    outline-color: transparent !important;
+    border-color: var(--color-white);
+    outline:none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+/************************************************************/
+/*----------------------------------------------------------*/
+/*----------- New Questions Page --------------*/
+.title-box-text{
+    color: var(--heading-grey);
+    display: block;
+    font-weight: 300;
+    margin: 2rem auto 2.5rem auto;
+    padding:1rem;
+    font-size: 3.2rem;
+}
+.QuestionCategorySelect{
+    width:100% !important;
+    border-radius:10px;
+}
+.AddCategoriesIcon{
+    float: right;
+}
+.AddCategoriesIcon button{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.ModalForm{
+    margin-left:1rem;
+}
+.ModalForm input{
+    width:130%;
+}
