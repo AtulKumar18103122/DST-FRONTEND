@@ -6,27 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:500,300,600&amp;subset=cyrillic,latin'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Files/assets/css/footers/footer-v1.css">
     <link rel="stylesheet" href="./Files/assets/css/headers/header-default.css">
-    <link rel="stylesheet" href="files/assets/plugins/font-awesome/css/font-awesome.min.css">
-
-<style>
-  .modal-header, .close {
-      background-color: #083b4f;
-      color:white !important;
-      text-align: center;
-      font-size: 30px;
-  }
-  .modal-footer {
-      background-color: #f9f9f9;
-  }
-  </style>
-<style>
-  .accordion-toggle {cursor: pointer;}
-  .accordion-content {display: none;}
-  .accordion-content.default {display: block;}
-</style>
+    <!-- <link rel="stylesheet" href="files/assets/plugins/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="Files/assets/css/theme-colors/default.css" id="style_color">
+    <link rel="stylesheet" href="head.css" />
 </head>
 <body>
 <div class="wrapper">
@@ -40,7 +30,7 @@
                 <a class="logo" href="index.html">
                     <img style="width:90px; height:90px" src="files/pec_logo2.png" alt="Vidwan Logo">
                 </a>
-                <p style="position: relative; float: left;">  <b>Punjab Engineering College</b>  <br>
+                <p style="position: absolute; left: 110px; top:20px">  <b>Punjab Engineering College</b>  <br>
                                 (Deemed to be University)  <br>Chandigarh
                 </p><br>
             </div>
@@ -65,18 +55,18 @@
     </div><!--/end container-->
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar navbar-expand-lg">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ml-auto">
 
 
                 <!-- Home -->
-                <li class="nav-item active">
+                <li class="nav-item">
 
                     <a class="nav-link" href="#">Home</a>
 
@@ -102,7 +92,7 @@
 
                 </li>
                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         More
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -113,14 +103,14 @@
                       </div>
                   </li>
                   <li class="nav-item">
-  
+
                       <a class="nav-link" href="#">Login</a>
-  
+
                   </li>
                   <li class="nav-item">
-  
+
                       <a class="nav-link" href="#">Register</a>
-  
+
                   </li>
 
 
@@ -140,18 +130,18 @@
 
 
                 <!-- Latest -->
-                <div class="col">
-                    <div class="row">
+                <div class="col-md-9">
+                    <!-- <div class="row">
                     <div style="color: white; font-size:large;">Developed and Maintained By:</div>
-                    <hr>
-                    
+                    <hr> -->
+                    <div class="headline"><h2>Developed and Maintained By:</h2></div>
+
                 <!-- Link List -->
-                
-                    
-                    </div><!--/col-md-3-->
+
+
+                    <!--/col-md-3-->
                 <!-- End Link List -->
 
-                <div class="row">
                     <ul class="list-unstyled who margin-bottom-30" style="color: #F7F7F7;">
                         <li style="color: #eee;">
                             Punjab Engineering College<br/>
@@ -161,36 +151,36 @@
 						            <li style="margin-top:8px;"><a href="disclaimer.html">Disclaimer</a></li>
                     </ul>
                 </div>
+              </div>
 
-                    <div class="row">
-                <!-- Address -->
-                <div class="col-md-4 map-img md-margin-bottom-40">
+              <div class="row">
+                <div class="col-md-3 map-img md-margin-bottom-40">
                     <address class="md-margin-bottom-40">
-                            <a class="footer-socials" href="https://www.facebook.com/PunjabEngineeringCollege/" style="color: white" ><i class="fa fa-facebook-f fa-2x"></i>  Facebook</a>
+                            <a class="footer-socials" href="https://www.facebook.com/PunjabEngineeringCollege/" style="color: white" ><i class="fab fa-facebook-f fa-2x"></i>  Facebook</a>
                     </address>
                 </div><!--/col-md-3-->
 
                 <!-- End Address -->
-                <div class="col-md-4 map-img md-margin-bottom-40">
+                <div class="col-md-3 map-img md-margin-bottom-40">
                     <address class="md-margin-bottom-40">
                             <a class=" footer-socials" href="#" style="color: white"><i class="fa fa-envelope fa-2x"></i>  Gmail</a>
                     </address>
                 </div><!--/col-md-3-->
                 <!-- End Address -->
-                <div class="col-md-4 map-img md-margin-bottom-40">
+                <div class="col-md-3 map-img md-margin-bottom-40" style="padding-left: 15px">
                     <address class="md-margin-bottom-40">
-                            <a class=" footer-socials" href="#" style="color: white;"><i class="fa fa-linkedin fa-2x"></i>  LinkedIn</a>
+                            <a class=" footer-socials" href="#" style="color: white"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a>
                     </address>
                 </div><!--/col-md-3-->
+              </div>
                     </div>
                 <!-- End Address -->
             </div>
-        </div>
 
-      <div class="copyright mx-auto">
+      <div class="copyright">
           <div class="container">
-              <div class="row mx-auto">
-                <p style="text-align: center; color: grey;">
+              <div class="row">
+                <p class="copyright-text" style="text-align: center; color: grey;">
                   Copyright © 2019 Punjab Engineering College (Deemed to be University), Sector 12, Chandigarh, India, 160012
                 </p>
               </div>
@@ -200,9 +190,6 @@
 </div>
 </div>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 </body>
 
 
