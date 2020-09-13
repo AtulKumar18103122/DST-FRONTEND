@@ -1,0 +1,10 @@
+.forum_user_tag {
+    border-radius: 25px;
+    width: fit-content;
+    float: left;
+    background: #f1f1f1;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0,1rem;
+    margin-right: 0.1rem;
+}

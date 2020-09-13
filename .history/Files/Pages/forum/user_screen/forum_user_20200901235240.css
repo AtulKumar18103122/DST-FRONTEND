@@ -1,0 +1,38 @@
+.research_interests {
+    border-radius: 25px;
+    background: #cdcccf;
+    width: fit-content;
+    height: 2rem;
+}
+
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: "\f107";
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded="true"]::before {
+    content: "\f106";
+}
+
+.forum_user_tag {
+    border-radius: 25px;
+    width: fit-content;
+    float: left;
+    background: #f1e9ff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0,1rem;
+    margin-right: 0.1rem;
+}
