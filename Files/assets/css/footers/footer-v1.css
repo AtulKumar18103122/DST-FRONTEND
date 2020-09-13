@@ -5,10 +5,10 @@
 .footer-v1 address{line-height:23px;}
 .footer-v1 .footer .map-img{background:url(../../img/map-img.png) 5px 60px no-repeat;}
 .footer-v1 .copyright{background:#272727;border-top:none;padding:10px 0 5px;}
-.footer-v1 .copyright p{;margin-top:14px;}
+.footer-v1 .copyright p{margin-top:14px;}
 .footer-v1 .footer-socials{margin-top:12px;align-items: right;}
 .footer-v1 .footer-socials a{color:white;font-size:16px;}
 @media (max-width:991px){.footer-v1 .copyright,
 .footer-v1 .footer-socials{text-align:left;}
 }
-}
+
