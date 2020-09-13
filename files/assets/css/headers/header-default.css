@@ -55,7 +55,8 @@ border-bottom:solid 2px #eee;
 }
 @media (max-width:991px){.header .navbar-header{float:none;}
 .header .navbar-toggle{display:block;}
-.header .navbar-collapse.collapse{display:none !important;}
+.header .navbar-collapse.collapse{display:none;}
+.header .navbar-collapse.show{display:block !important;}
 .header .navbar-collapse.collapse.in{display:block !important;overflow-y:auto !important;}
 .header .navbar-nav{margin:0 0 5px;float:none !important;}
 .header .navbar-nav > li{float:none;}

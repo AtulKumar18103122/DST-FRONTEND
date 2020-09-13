@@ -34,7 +34,20 @@ body{
 .header .navbar-toggle, .header .navbar-toggle:hover, .header .navbar-toggle:focus {
     background: #083b4f;
 }
-
+.navbarButton{
+  position: absolute;
+  right: 0px;
+  top: -12px;
+}
+.navbar-toggler-icon{
+  background-color:#083b4f !important;
+}
+.navbar-toggler-image{
+  height:15px;
+  width:15px;
+  margin-top:5px;
+  background-color:#fff !important;
+}
 .navbar{
   position: relative;
     min-height: 50px;
