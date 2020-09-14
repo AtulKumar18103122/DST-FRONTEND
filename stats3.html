@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css'
+        href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./files/assets/css/footers/footer-v1.css">
+    <link rel="stylesheet" href="./files/assets/css/headers/header-default.css">
+    <!-- <link rel="stylesheet" href="files/assets/plugins/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="files/assets/css/theme-colors/default.css" id="style_color">
+    <link rel="stylesheet" href="head.css" />
+    <title>Satistics</title>
+
+    <!-- For Amcharts -->
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="files/assets/js/for_charts.js"></script>
+    <style>
+        #main_content {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+
+        button {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .custbut {
+            overflow: none;
+            white-space: normal !important;
+            color: rgb(37, 37, 172);
+            text-decoration: rgb(141, 141, 219);
+            font-weight: bold;
+            font-size: 15px;
+            word-wrap: break-word;
+            padding: 10px !important;
+            margin: 0% !important;
+            text-align: left;
+        }
+
+        button:hover {
+            color: rgb(35, 35, 39);
+            border-bottom-color: darkblue;
+            background-color: rgb(215, 223, 228);
+        }
+
+        .graphsize {
+            height: 500px;
+            width: inherit;
+            margin: 0% 10%
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header ">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="col-md-6">
+                        <a class="logo" href="index.html">
+                            <img style="width:90px; height:90px" src="files/pec_logo2.png" alt="Vidwan Logo">
+                        </a>
+                        <p style="position: absolute; left: 110px; top:20px"> <b>Punjab Engineering College</b> <br>
+                            (Deemed to be University) <br>Chandigarh
+                        </p><br>
+                    </div>
+                    <!-- End Logo -->
+
+                    <!-- Topbar -->
+
+                    <div class="col-md-6">
+                        <div class="topbar">
+                            <div id="Right_logo" class="Right_logo">
+                                <img src="files/mhrd_logo.png" alt="MHRD Logo">
+                                <p> <b>A GoI Project</b> <br>
+                                    Department of Science<br>and Technology
+                                </p><br>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- End Toggle -->
+                </div>
+                <!--/end row-->
+            </div>
+            <!--/end container-->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="container">
+                <div class="navbar navbar-expand-lg">
+                    <div class="row">
+                        <button class="navbar-toggler navbarButton" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fa fa-bars navbarToggleIcon"></span>
+
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+
+                        <ul class="navbar-nav ml-auto mb-4">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Academicians</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Universities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Forum</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Opportunities</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                                    More<span class="NavbarDropMenuIcon"><i class="fas fa-angle-down"></i></span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Statistics</a>
+                                    <a class="dropdown-item" href="#">Funding Agency</a>
+                                    <a class="dropdown-item" href="#">About</a>
+                                    <a class="dropdown-item" href="#">Contact Us</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+
+                                <a class="nav-link" href="#">Login</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/navbar-collapse-->
+            </div>
+
+
+
+
+        </div>
+        <div class="main_content">
+            <div style="margin: auto; padding-left: 10%; padding-right: 10%; margin-bottom: 5%;">
+                <h1 class="mt-5">STATISTICS</h1>
+                <p style=" margin-top: 20px; margin-bottom: 20px; padding-right: 10%; ">The following graphs give
+                    an overview about the number of Indian Origin Academicians in various countries like USA, UK,
+                    Canada,
+                    Australia
+                    and also in other countries.
+                    It also tells about the major contributors of Indian origin Academicians from various countries. The
+                    data
+                    about
+                    the number of academicians with different professions is also provided.
+                </p>
+
+                <div class="accordion mr-md-5 " id="graphs_stats">
+                    <div class="card">
+                        <div class="card-header" id="vari_cntry" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block custbut" type="button" data-toggle="collapse"
+                                    data-target="#vari_cntry_data" aria-expanded="true" aria-controls="vari_cntry_data">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in Various Countries
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="vari_cntry_data" class="collapse show" aria-labelledby="vari_cntry"
+                            data-parent="#graphs_stats">
+                            <!-- <div class="card-body mx-auto" style="width: 500px; height:500px"> -->
+                            <div class="mx-auto mh-100 mw-100 graphsize" id="chart_div" style="bottom: 0px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="var_disc" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_disc_data" aria-expanded="false"
+                                    aria-controls="var_disc_data" onclick="top5()">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in various disciplines
+                                        in USA
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_disc_data" class="collapse" aria-labelledby="var_disc" data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_2"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_disc_uk" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_disc_uk_data" aria-expanded="false"
+                                    aria-controls="var_disc_uk_data" onclick="top5()">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in various disciplines
+                                        in UK
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_disc_uk_data" class="collapse" aria-labelledby="var_disc_uk"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_3"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_disc_Canada" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_disc_Canada_data" aria-expanded="false"
+                                    aria-controls="var_disc_Canada_data" onclick="top5()">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in various disciplines
+                                        in Canada
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_disc_Canada_data" class="collapse" aria-labelledby="var_disc_Canada"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_4"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_disc_Australia" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_disc_Australia_data" aria-expanded="false"
+                                    aria-controls="var_disc_Australia_data" onclick="top5()">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in various disciplines
+                                        in Australia
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_disc_Australia_data" class="collapse" aria-labelledby="var_disc_Australia"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_5"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_disc_others" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_disc_others_data" aria-expanded="false"
+                                    aria-controls="var_disc_others_data" onclick="top5()">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in various disciplines
+                                        in other countries
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_disc_others_data" class="collapse" aria-labelledby="var_disc_others"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_6"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_disc_all" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_disc_all_data" aria-expanded="false"
+                                    aria-controls="var_disc_all_data" onclick="top5()">
+                                    <div style="padding-left: 10px;">Indian Origin Academicians in various disciplines
+                                        in All Countries
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_disc_all_data" class="collapse" aria-labelledby="var_disc_all"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_7"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="var_cont_all" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_cont_all_data" aria-expanded="false"
+                                    aria-controls="var_cont_all_data" onclick="">
+                                    <div style="padding-left: 10px;">Major Contributors of Indian Origin Academicians in
+                                        all Countries
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_cont_all_data" class="collapse" aria-labelledby="var_cont_all"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_8"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_cont_usa" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_cont_usa_data" aria-expanded="false"
+                                    aria-controls="var_cont_usa_data" onclick="">
+                                    <div style="padding-left: 10px;">Major Contributors of Indian Origin Academicians in
+                                        USA
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_cont_usa_data" class="collapse" aria-labelledby="var_cont_usa"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_9"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_cont_UK" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_cont_UK_data" aria-expanded="false"
+                                    aria-controls="var_cont_UK_data" onclick="">
+                                    <div style="padding-left: 10px;">Major Contributors of Indian Origin Academicians in
+                                        UK
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_cont_UK_data" class="collapse" aria-labelledby="var_cont_UK"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_10"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_cont_Canada" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_cont_Canada_data" aria-expanded="false"
+                                    aria-controls="var_cont_Canada_data" onclick="">
+                                    <div style="padding-left: 10px;">Major Contributors of Indian Origin Academicians in
+                                        Canada
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_cont_Canada_data" class="collapse" aria-labelledby="var_cont_Canada"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_11"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_cont_Australia" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_cont_Australia_data" aria-expanded="false"
+                                    aria-controls="var_cont_Australia_data" onclick="">
+                                    <div style="padding-left: 10px;">Major Contributors of Indian Origin Academicians in
+                                        Australia
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_cont_Australia_data" class="collapse" aria-labelledby="var_cont_Australia"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_12"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="var_cont_prof" style="padding:0%">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed custbut" type="button"
+                                    data-toggle="collapse" data-target="#var_cont_prof_data" aria-expanded="false"
+                                    aria-controls="var_cont_prof_data" onclick="">
+                                    <div style="padding-left: 10px;">Different Professionals of Indian Origin
+                                        Academicians in various Countries
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="var_cont_prof_data" class="collapse" aria-labelledby="var_cont_prof"
+                            data-parent="#graphs_stats">
+
+                            <div class="mx-auto mh-100 mw-100 graphsize " id="chart_div_13"
+                                style="bottom: 0px; height: 500px !important; width: inherit !important;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Till Main Content -->
+        </div>
+        <!-- For Footer -->
+        <!--=== Footer Version 1 ===-->
+        <div class="footer-v1">
+        
+            <div class="footer">
+                <div class="container">
+        
+                    <div class="row" style="margin-right: -15px; margin-left: -15px;">
+                        <!-- About -->
+        
+        
+                        <!-- Latest -->
+                        <div class="col-md-9">
+                            <!-- <div class="row">
+                            <div style="color: white; font-size:large;">Developed and Maintained By:</div>
+                            <hr> -->
+                            <div class="headline">
+                                <h2>Developed and Maintained By:</h2>
+                            </div>
+        
+                            <!-- Link List -->
+        
+        
+                            <!--/col-md-3-->
+                            <!-- End Link List -->
+        
+                            <ul class="list-unstyled who margin-bottom-30" style="color: #F7F7F7;">
+                                <li style="color: #eee;">
+                                    Punjab Engineering College<br />
+                                    (Deemed to be University)<br />
+                                    Chandigarh
+                                </li>
+                                <li style="margin-top:8px;"><a href="disclaimer.html">Disclaimer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-md-3 map-img md-margin-bottom-40">
+                            <address class="md-margin-bottom-40">
+                                <a class="footer-socials" href="https://www.facebook.com/PunjabEngineeringCollege/"
+                                    style="color: white"><i class="fab fa-facebook-f fa-2x"></i> Facebook</a>
+                            </address>
+                        </div>
+                        <!--/col-md-3-->
+        
+                        <!-- End Address -->
+                        <div class="col-md-3 map-img md-margin-bottom-40">
+                            <address class="md-margin-bottom-40">
+                                <a class=" footer-socials" href="#" style="color: white"><i class="fa fa-envelope fa-2x"></i>
+                                    Gmail</a>
+                            </address>
+                        </div>
+                        <!--/col-md-3-->
+                        <!-- End Address -->
+                        <div class="col-md-3 map-img md-margin-bottom-40" style="padding-left: 15px">
+                            <address class="md-margin-bottom-40">
+                                <a class=" footer-socials" href="#" style="color: white"><i class="fab fa-linkedin fa-2x"></i>
+                                    LinkedIn</a>
+                            </address>
+                        </div>
+                        <!--/col-md-3-->
+                    </div>
+                </div>
+                <!-- End Address -->
+            </div>
+        
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <p class="copyright-text" style="text-align: center; color: grey;">
+                            Copyright © 2019 Punjab Engineering College (Deemed to be University), Sector 12,
+                            Chandigarh, India, 160012
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--/copyright-->
+        </div>
+        <!--/footer-->
+    </div>
+
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+
+</html>
