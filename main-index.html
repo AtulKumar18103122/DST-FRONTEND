@@ -21,13 +21,21 @@
         function ToggleNavbar()
         {
             var element = document.getElementById("navbarTogglerDemo01");
-                if(element.classList.length == 2)
+                var isShowPresent = false;
+                for(var i=0;i<element.classList.length;i++)
                 {
-                    element.classList.add("show");
+                    if(element.classList[i]=="show")
+                    {
+                        isShowPresent = true;
+                    }
                 }
-                else if(element.classList.length == 3)
+                if(isShowPresent)
                 {
                     element.classList.remove("show");
+                }
+                else
+                {
+                    element.classList.add("show");
                 }
         }
     </script>
