@@ -5,6 +5,7 @@
 }
 *{
     font-size: 14px;
+    color:var(--heading-grey);
 }
 
 button:focus, input:focus{
@@ -37,6 +38,11 @@ a{
 .AddCategoriesIcon button{
     border-color: transparent;
     background-color: transparent;
+    
+}
+.AddCategoriesIcon button i{
+    padding:1px;
+    border:1px solid var(--heading-grey);
 }
 
 .ModalForm{

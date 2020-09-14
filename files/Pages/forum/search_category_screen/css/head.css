@@ -1,0 +1,122 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.Right_logo img {
+    width: 8%;
+    float: right;
+    margin-left: 10px;
+}
+.Right_logo p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 2px;
+    text-align: right;
+	margin-bottom: 0px;
+    color: #595959;
+}
+.Right_logo p b {
+    color: #fff;
+    background: #083b4f;
+    padding: 2px 5px;
+    font-size: 11px;
+	  border-top-left-radius: 8px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.header .navbar-nav > li > a {
+    padding: 10px 18px 10px 10px;
+}
+
+.header .navbar-toggle, .header .navbar-toggle:hover, .header .navbar-toggle:focus {
+    background: #083b4f;
+}
+.navbarButton{
+  position: absolute;
+  right: 0px;
+  top: -25px;
+  background-color: #083b4f !important;
+  padding:2px auto;
+  transition:active 15s ease-out !important;
+}
+
+.navbarToggleIcon{
+  color:#fff;
+}
+
+.navbar-toggler-image{
+  height:15px;
+  width:15px;
+  margin-top:5px;
+  background-color:#fff !important;
+}
+.navbar{
+  position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    transition: all 1s ease-out;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ .nav-item{
+   text-decoration: none;
+   padding-right: 8px;
+ }
+ .nav-item:hover{
+   text-decoration: none;
+   
+ }
+ .nav-link{
+   font-family: "Montserrat";
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: #333;
+ }
+ @media screen and (max-width:991px)
+ {
+   .nav-item:hover{
+    background-color: #eee;
+   }
+ }
+
+.navbar-collapse{
+  transition: .4s all linear !important;
+}
+.NavbarDropMenuIcon{
+  float: right;
+  font-size: 120%;
+  margin-left: 4px;
+}
+
+ .copyright{
+   text-align: center;
+ }
+
+ .who li{margin-bottom:6px;}
+ .who li i{color:#72c02c;font-size:13px;min-width:15px;margin-right:8px;text-align:center;position:relative;}
+ .who li:hover i,
+ .who li:hover a{color:#777;}
+ .who li:hover a:hover{text-decoration:none;}
+ address {
+     margin-bottom: 20px;
+     font-style: normal;
+ }
+
+ .footer-v1 .copyright {
+    background: #272727;
+    border-top: none;
+    padding: 10px 0 5px;
+}
+
+.copyright-text{
+  align-items: center;
+}

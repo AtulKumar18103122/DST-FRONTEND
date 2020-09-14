@@ -12,6 +12,7 @@
 }
 *{
     font-size: 14px;
+    color:var(--heading-grey);
 }
 
 button:focus, input:focus{
@@ -26,11 +27,12 @@ a{
 .title-box-text{
     color: var(--heading-grey);
     display: block;
-    font-weight: 300;
+    font-weight: 200;
     margin: 2rem auto 2.5rem auto;
     padding:1rem;
     font-size: 3.2rem;
 }
+
 /********************************/
 /*----------Search Bar--------------*/
 .form-control:focus {
@@ -49,17 +51,20 @@ a{
     display: inline-block;
     font-size: 1.3rem;
     padding: 1.5rem;
-
 }
+
 #CategorySearchButton{
     display: inline-block;
     font-size: 1.5rem;
     position: absolute;
     right:10;
     margin-left: 8px;
-    margin-top:2px;
+    margin-top:3px;
     color:var(--light-greyLighter) !important;
     background-color: var(--primary-blue);
+}
+#CategorySearchButton i{
+    color:var(--color-white);
 }
 /**************************************/
 /*-------Category Accordian----------------*/
@@ -81,8 +86,9 @@ color: var(--light-grey);
 opacity:0.664;
 }
 .AccordianTile{
+    margin-top: 10px;
     text-align: left !important;
-    padding:0.8rem 2rem !important;
+    padding:1rem !important;
     border-radius: 20px !important;
 
     background-color: var(--light-greyLightest) !important;

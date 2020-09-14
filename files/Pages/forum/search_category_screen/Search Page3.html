@@ -1,25 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    
+<head>
+    <title>DST Project</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--For icons-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:500,300,600&amp;subset=cyrillic,latin'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/styles.css">
-    <!--Bootstrap file-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--Bootstrap Select-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-    <title>Search Page</title>
-  </head>
-  <body>
-    <!--************************************************************************************************************************************-->
-<!--****************Main Content Section Starts*********************-->
+    <link rel="stylesheet" href="../../../assets/css/footers/footer-v1.css">
+    <link rel="stylesheet" href="../../../assets/css/headers/header-default.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../assets/css/theme-colors/default.css" id="style_color">
+    <link rel="stylesheet" href="./css/head.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+<div class="wrapper">
+<!--***************************************************************************************************-->
+<!--=== Header ===-->
+<div class="header ">
+    <div class="container">
+        <div class="row">
+            <!-- Logo -->
+            <div class="col-md-6">
+                <a class="logo" href="../../../../index.html"><img style="width:90px; height:90px" src="../../../pec_logo2.png" alt="Pec Logo"></a>
+                <p style="position: absolute; left: 110px; top:20px">  <b>Punjab Engineering College</b>  <br>
+                                (Deemed to be University)  <br>Chandigarh
+                </p><br>
+            </div>
+            <!-- End Logo -->
 
+            <!-- Topbar -->
+            <div class="col-md-6">
+                <div class="topbar">
+                    <div id="Right_logo" class="Right_logo"><img src="../../../mhrd_logo.png" alt="MHRD Logo">
+                        <p>  <b>A GoI Project</b>  <br>
+                                        Department of Science<br>and Technology
+                        </p><br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    
+    <div class="container">
+        <div class="navbar navbar-expand-lg">
+            <div class="row">
+                <button class="navbar-toggler navbarButton" type="button"  data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars navbarToggleIcon"></span>   
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mb-4">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>        
+                    <li class="nav-item"><a class="nav-link" href="#">Academicians</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Universities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Opportunities</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            More<span class="NavbarDropMenuIcon"><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Statistics</a>
+                            <a class="dropdown-item" href="#">Funding Agency</a>
+                            <a class="dropdown-item" href="#">About</a>
+                            <a class="dropdown-item" href="#">Contact Us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/navbar-collapse-->
+    
+    </div>
+</div>
+<!--***************************************************************************************-->
 <div class="container">
-   <div class="row">
+    <div class="row">
         
         <div class="col-md-7">
             <h1 class="title-box-text text-left">Search Categories</h1>
@@ -35,7 +105,8 @@
     <div class="row">
         
         <div class="col-md-7">
-            
+            <!--********************************--> 
+            <!--*********** Trending Section for screen size <md  ****************************-->
             <div class="d-sm-block d-md-none">
                 <form>
                 <div class = "col-xs-6">
@@ -63,45 +134,14 @@
                 </div>
                 </form>
             </div>
-        
-        
+            <!--********************************--> 
+
             <!--******************************************************************-->
             <!--******************Accordian Dropdown******************************-->
             <div class = "BrowseCategories">
                 <div class="accordion" id="accordionExample">
                 
                     <!-- Each Category Start-->
-                    <div class="card CategoryAccordianCard">
-                        <div class="card-header CategoryAccordianCardHeader" id="headingOne">
-                            <h2 class="mb-2 CategoryAccordianHeading">
-                                <button class="btn btn-block AccordianTile"  type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                        <!--Category Title-->
-                                    <span class="CategoryAccordianButton">  Electrical <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
-                                </button>
-                            </h2>
-                            
-                        </div>
-
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body CategoryAccordianCardBody">
-                                <div class = "AccordianButtonsSection">
-                                    <div class="row">
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" onclick="this.blur();" id="Option 1">Option 1</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 2">Option 2</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 3">Option 3</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 4">Option 4</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 5">Option 5</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 6">Option 6</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 7">Option 7</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 8">Option 8</button></div>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!-- Each Category Ends-->
-
-                <!-- Each Category Start-->
                     <div class="card CategoryAccordianCard">
                         <div class="card-header CategoryAccordianCardHeader" id="headingOne">
                             <h2 class="mb-2 CategoryAccordianHeading">
@@ -162,9 +202,6 @@
                         </div>
                     </div>
                 <!-- Each Category Ends-->
-
-
-
 
                 <!-- Each Category Starts-->
                     <div class="card CategoryAccordianCard">
@@ -228,55 +265,20 @@
                         </div>
                     </div>
                 <!-- Each Category Ends-->
-                
-                
-                
-                    <div class="card CategoryAccordianCard">
-                        <div class="card-header CategoryAccordianCardHeader" id="headingTwo">
-                            <h2 class="mb-2 CategoryAccordianHeading">
-                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+
+                <div class="card CategoryAccordianCard">
+                        <div class="card-header CategoryAccordianCardHeader" id="headingFive">
+                            <h2 class="mb-2 CategoryAccordianHeading">              
+                                                                                                                            <!--NAME ACCORDINGLY-->                             <!--NAME ACCORDINGLY-->
+                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                                                                         <!--Category Title-->
-                                    <span class="CategoryAccordianButton">  Electroics and Communication <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                                    <span class="CategoryAccordianButton">  Coding <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
                                 </button>
                             </h2>
                             
                         </div>
-
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body CategoryAccordianCardBody">
-                                <div class = "AccordianButtonsSection">
-                                    <div class="row">
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 1">Option 1</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 2">Option 2</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 3">Option 3</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 4">Option 4</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 5">Option 5</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 6">Option 6</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 7">Option 7</button></div>
-                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 8">Option 8</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-
-
-
-
-                
-                    <div class="card CategoryAccordianCard">
-                        <div class="card-header CategoryAccordianCardHeader" id="headingThree">
-                            <h2 class="mb-2 CategoryAccordianHeading">
-                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                                                        <!--Category Title-->
-                                    <span class="CategoryAccordianButton">  Sociology <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
-                                </button>
-                            </h2>
-                            
-                        </div>
-
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <!--NAME ACCORDINGLY-->                         <!--NAME ACCORDINGLY-->
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                             <div class="card-body CategoryAccordianCardBody">
                                 <div class = "AccordianButtonsSection">
                                     <div class="row">
@@ -293,23 +295,22 @@
                             </div>
                         </div>
                     </div>
+                <!-- Each Category Ends-->
                 
-
-
-
-                
+                <!-- Each Category Starts-->
                     <div class="card CategoryAccordianCard">
-                        <div class="card-header CategoryAccordianCardHeader" id="headingFour">
+                        <div class="card-header CategoryAccordianCardHeader" id="headingSix">
                             <h2 class="mb-2 CategoryAccordianHeading">
-                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+
+                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                                                         <!--Category Title-->
-                                    <span class="CategoryAccordianButton">  EVS <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                                    <span class="CategoryAccordianButton">  Economics <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
                                 </button>
                             </h2>
                             
                         </div>
 
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                             <div class="card-body CategoryAccordianCardBody">
                                 <div class = "AccordianButtonsSection">
                                     <div class="row">
@@ -326,12 +327,78 @@
                             </div>
                         </div>
                     </div>
+                <!-- Each Category Ends-->
 
+
+
+
+                <!-- Each Category Starts-->
+                    <div class="card CategoryAccordianCard">
+                        <div class="card-header CategoryAccordianCardHeader" id="headingSeven">
+                            <h2 class="mb-2 CategoryAccordianHeading">
+                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                                                        <!--Category Title-->
+                                    <span class="CategoryAccordianButton">  Aero-Dynamics <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                                </button>
+                            </h2>
+                            
+                        </div>
+
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                            <div class="card-body CategoryAccordianCardBody">
+                                <div class = "AccordianButtonsSection">
+                                    <div class="row">
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 1">Option 1</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 2">Option 2</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 3">Option 3</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 4">Option 4</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 5">Option 5</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 6">Option 6</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 7">Option 7</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 8">Option 8</button></div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Each Category Ends-->
+
+
+
+                <!-- Each Category Starts-->
+                    <div class="card CategoryAccordianCard">
+                        <div class="card-header CategoryAccordianCardHeader" id="headingEight">
+                            <h2 class="mb-2 CategoryAccordianHeading">
+                                <button class="btn btn-block AccordianTile" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                    <span class="CategoryAccordianButton">  Mathematics <i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                                </button>
+                            </h2>
+                            
+                        </div>
+
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                            <div class="card-body CategoryAccordianCardBody">
+                                <div class = "AccordianButtonsSection">
+                                    <div class="row">
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 1">Option 1</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 2">Option 2</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 3">Option 3</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info" id="Option 4">Option 4</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 5">Option 5</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 6">Option 6</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 7">Option 7</button></div>
+                                        <div class="col-sm-3 CategoryTile"><button type="button" class="btn btn-info"id="Option 8">Option 8</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Each Category Ends-->
 
                 </div>
             </div>
-        <!--******************************************************************************************************************-->
-                                            <!--Pagination-->
+        <!--********************************--> 
+        <!--*********** Pagination  ****************************-->
             <nav aria-label="Page navigation">
                 <ul class="pagination justify-content-center">
                     <li class="page-item"><a class="page-link SearchPagination" href="Search Page2.html" tabindex="-1">Previous</a></li>
@@ -341,12 +408,12 @@
                     <li class="page-item disabled"><a class="page-link SearchPagination" href="#">Next</a></li>
                 </ul>
             </nav>
-                                            <!--Pagination Ends-->
-        <!--*********************************************************************************************************************-->
         </div>
-
+        <!--********************************--> 
         <div class="col-md-1"></div>
-        
+       
+       <!--********************************--> 
+        <!--*********** Trending Section for screen size >=md  ****************************-->
         <div class="col-md-4 d-none d-md-block TrendingSection">
             <div class="card shadow mt-3 TopCategoriesSection" id="Top_Topics">
                 <div class="card-header  pb-1 bg-white">
@@ -401,13 +468,80 @@
                 </div>
             </div>
         </div>
+        <!--******************************************-->
 
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script> 
+
+
+<!--***************************************************************************************-->
+<!--=== Footer Version 1 ===-->
+<div class="footer-v1 mt-5">
+    <div class="footer" >
+        <div class="container">
+            <div class="row" style="margin-right: -15px; margin-left: -15px;">
+                <!-- About -->
+
+                <!-- Latest -->
+                <div class="col-md-9">
+                    <div class="headline"><h2>Developed and Maintained By:</h2></div>
+                <!-- Link List -->
+                    <!--/col-md-3-->
+                <!-- End Link List -->
+
+                    <ul class="list-unstyled who margin-bottom-30" style="color: #F7F7F7;">
+                        <li style="color: #eee;">
+                            Punjab Engineering College<br/>
+                            (Deemed to be University)<br/>
+                            Chandigarh
+                        </li>
+                        <li style="margin-top:8px;"><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 map-img md-margin-bottom-40">
+                    <address class="md-margin-bottom-40">
+                            <a class="footer-socials" href="https://www.facebook.com/PunjabEngineeringCollege/" style="color: white" ><i class="fab fa-facebook-f fa-2x"></i>  Facebook</a>
+                    </address>
+                </div><!--/col-md-3-->
+
+                <!-- End Address -->
+                <div class="col-md-3 map-img md-margin-bottom-40">
+                    <address class="md-margin-bottom-40">
+                        <a class=" footer-socials" href="#" style="color: white"><i class="fa fa-envelope fa-2x"></i>  Gmail</a>
+                    </address>
+                </div><!--/col-md-3-->
+                <!-- End Address -->
+                <div class="col-md-3 map-img md-margin-bottom-40" style="padding-left: 15px">
+                    <address class="md-margin-bottom-40">
+                        <a class=" footer-socials" href="#" style="color: white"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a>
+                    </address>
+                </div><!--/col-md-3-->
+            </div>
+        </div>
+        <!-- End Address -->
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <p class="copyright-text" style="text-align: center; color: grey;">
+                    Copyright © 2019 Punjab Engineering College (Deemed to be University), Sector 12, Chandigarh, India, 160012
+                </p>
+            </div>
+        </div>
+    </div><!--/copyright-->
+    </div><!--/footer-->
+</div>
+</div>
+<!--***************************************************************************************-->
+
+<!-- *******************  FILES  ***************************-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
 </body>
+
 
 </html>
