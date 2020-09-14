@@ -12,9 +12,6 @@
     <link rel='stylesheet' type='text/css'
         href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
@@ -46,6 +43,16 @@
 
         button {
             font-family: 'Open Sans', sans-serif;
+        }
+        .GraphPara{
+            margin-right:20px;
+        }
+        @media screen and (max-width:854px)
+        {
+            .GraphPara{
+                margin-right:0px;
+            }
+        
         }
 
         .custbut {
@@ -81,31 +88,25 @@
             <div class="container">
                 <div class="row">
                     <!-- Logo -->
-                    <div class="col-md-6">
-                        <a class="logo" href="../../../index.html">
-                            <img style="width:90px; height:90px" src="../../../files/pec_logo2.png" alt="Vidwan Logo">
-                        </a>
-                        <p style="position: absolute; left: 110px; top:20px"> <b>Punjab Engineering College</b> <br>
-                            (Deemed to be University) <br>Chandigarh
+                    <div class="col-sm-6 mb-2">
+                        <a class="logo" href="../../../index.html"><img src="../../pec_logo2.png" alt="Pec Logo"></a>
+                        <p style="position: absolute; left: 110px; top:20px">  <b>Punjab Engineering College</b>  <br>
+                                        (Deemed to be University)  <br>Chandigarh
                         </p><br>
                     </div>
                     <!-- End Logo -->
 
                     <!-- Topbar -->
-
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <div class="topbar">
-                            <div id="Right_logo" class="Right_logo">
-                                <img src="../../../files/mhrd_logo.png" alt="MHRD Logo">
-                                <p> <b>A GoI Project</b> <br>
-                                    Department of Science<br>and Technology
+                            <div id="Right_logo" class="Right_logo"><img src="../../mhrd_logo.png" alt="MHRD Logo">
+                                <p>  <b>A GoI Project</b>  <br>
+                                                Department of Science<br>and Technology
                                 </p><br>
                             </div>
                         </div>
                     </div>
 
-
-                    <!-- End Toggle -->
                 </div>
                 <!--/end row-->
             </div>
@@ -171,7 +172,7 @@
         <div class="main_content">
             <div style="margin: auto; padding-left: 10%; padding-right: 10%; margin-bottom: 5%;">
                 <h1 class="mt-5">STATISTICS</h1>
-                <p style=" margin-top: 20px; margin-bottom: 20px; padding-right: 10%; ">The following graphs give
+                <p class="GraphPara" style=" margin-top: 20px; margin-bottom: 20px;">The following graphs give
                     an overview about the number of Indian Origin Academicians in various countries like USA, UK,
                     Canada,
                     Australia
@@ -447,87 +448,67 @@
         </div>
         <!-- For Footer -->
         <!--=== Footer Version 1 ===-->
-        <div class="footer-v1">
-        
-            <div class="footer">
-                <div class="container">
-        
-                    <div class="row" style="margin-right: -15px; margin-left: -15px;">
-                        <!-- About -->
-        
-        
-                        <!-- Latest -->
-                        <div class="col-md-9">
-                            <!-- <div class="row">
-                            <div style="color: white; font-size:large;">Developed and Maintained By:</div>
-                            <hr> -->
-                            <div class="headline">
-                                <h2>Developed and Maintained By:</h2>
-                            </div>
-        
-                            <!-- Link List -->
-        
-        
-                            <!--/col-md-3-->
-                            <!-- End Link List -->
-        
-                            <ul class="list-unstyled who margin-bottom-30" style="color: #F7F7F7;">
-                                <li style="color: #eee;">
-                                    Punjab Engineering College<br />
-                                    (Deemed to be University)<br />
-                                    Chandigarh
-                                </li>
-                                <li style="margin-top:8px;"><a href="disclaimer.html">Disclaimer</a></li>
-                            </ul>
-                        </div>
-                    </div>
-        
-                    <div class="row">
-                        <div class="col-md-3 map-img md-margin-bottom-40">
-                            <address class="md-margin-bottom-40">
-                                <a class="footer-socials" href="https://www.facebook.com/PunjabEngineeringCollege/"
-                                    style="color: white"><i class="fab fa-facebook-f fa-2x"></i> Facebook</a>
-                            </address>
-                        </div>
-                        <!--/col-md-3-->
-        
-                        <!-- End Address -->
-                        <div class="col-md-3 map-img md-margin-bottom-40">
-                            <address class="md-margin-bottom-40">
-                                <a class=" footer-socials" href="#" style="color: white"><i class="fa fa-envelope fa-2x"></i>
-                                    Gmail</a>
-                            </address>
-                        </div>
-                        <!--/col-md-3-->
-                        <!-- End Address -->
-                        <div class="col-md-3 map-img md-margin-bottom-40" style="padding-left: 15px">
-                            <address class="md-margin-bottom-40">
-                                <a class=" footer-socials" href="#" style="color: white"><i class="fab fa-linkedin fa-2x"></i>
-                                    LinkedIn</a>
-                            </address>
-                        </div>
-                        <!--/col-md-3-->
-                    </div>
+        <div class="footer-v1 mt-5">
+    <div class="footer" >
+        <div class="container">
+            <div class="row" style="margin-right: -15px; margin-left: -15px;">
+                <!-- About -->
+
+                <!-- Latest -->
+                <div class="col-md-9">
+                    <div class="headline mb-2"><h2>Developed and Maintained By:</h2></div>
+                <!-- Link List -->
+                    <!--/col-md-3-->
+                <!-- End Link List -->
+
+                    <ul class="list-unstyled who margin-bottom-30 mt-3" style="color: #F7F7F7;">
+                        <li style="color: #eee;">
+                            Punjab Engineering College<br/>
+                            (Deemed to be University)<br/>
+                            Chandigarh
+                        </li>
+                        <li style="margin-top:8px;"><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 map-img md-margin-bottom-40">
+                    <address class="md-margin-bottom-40">
+                            <a class="footer-socials" href="https://www.facebook.com/PunjabEngineeringCollege/" style="color: white" ><i class="fab fa-facebook-f fa-2x"></i>  Facebook</a>
+                    </address>
+                </div><!--/col-md-3-->
+
                 <!-- End Address -->
+                <div class="col-md-3 map-img md-margin-bottom-40">
+                    <address class="md-margin-bottom-40">
+                        <a class=" footer-socials" href="#" style="color: white"><i class="fa fa-envelope fa-2x"></i>  Gmail</a>
+                    </address>
+                </div><!--/col-md-3-->
+                <!-- End Address -->
+                <div class="col-md-3 map-img md-margin-bottom-40" style="padding-left: 15px">
+                    <address class="md-margin-bottom-40">
+                        <a class=" footer-socials" href="#" style="color: white"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a>
+                    </address>
+                </div><!--/col-md-3-->
             </div>
-        
-            <div class="copyright">
-                <div class="container">
-                    <div class="row">
-                        <p class="copyright-text" style="text-align: center; color: grey;">
-                            Copyright © 2019 Punjab Engineering College (Deemed to be University), Sector 12,
-                            Chandigarh, India, 160012
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!--/copyright-->
         </div>
-        <!--/footer-->
+        <!-- End Address -->
     </div>
 
-</body>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <p class="copyright-text" style="text-align: center; color: grey;">
+                    Copyright © 2019 Punjab Engineering College (Deemed to be University), Sector 12, Chandigarh, India, 160012
+                </p>
+            </div>
+        </div>
+    </div><!--/copyright-->
+    </div><!--/footer-->
+</div>
+</div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -539,6 +520,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+    
+</body>
 
 
 </html>
