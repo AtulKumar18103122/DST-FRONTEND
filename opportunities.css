@@ -1,9 +1,10 @@
-.body-margin{
-  margin: 2.5rem ;
+page-content{
+  margin-top: 50px ;
+  margin-bottom: 50px ;
 }
 
 .block{
-  background-color: #f1f3f8 ;
+  background-color: #f6f5f5 ;
   margin: 0.625rem 3.125rem 0.625rem 3.125rem ;
   padding-left: 0.625rem ;
   padding-right: 0.625rem ;
@@ -18,14 +19,14 @@
   float: right;
   height: 30px ;
   width: 65px ;
-  background-color: #d6e0f0 !important ;
+  background-color: #f5efef !important;
   margin: 0.375rem 0.625rem 0.375rem auto !important;
   padding: 0.125rem !important ;
   font-size: 0.75rem !important ;
 }
 
 .my-btn:hover{
-  background-color: #a2d5f2 !important;
+  background-color: #dddddd  !important ;
 }
 
 .my-btn:focus, .my-btn.focus {
@@ -33,10 +34,21 @@
   box-shadow: 0px 0px 0px !important;
 }
 
+.search-btn{
+  background-color: #145374 !important;
+  border-color: #145374 !important;
+}
+
+.search-btn:focus{
+  box-shadow: 0 0 0 !important ;
+}
+
+.search-btn:hover{
+  background-color: #2a3d66 !important;
+}
+
 
 .opportunites-nav{
-  /* margin-left: 0px !important ;
-  margin-right: 0px !important ; */
   padding-bottom: 1.25rem;
   text-align: center;
 }
@@ -64,6 +76,7 @@
 #opportunites{
   margin: 1.25rem auto 1.25rem 5.625rem ;
 
+  font-weight: 480 !important;
 }
 
 .nav-div{
@@ -81,8 +94,7 @@ li{
 }
 
 .li-link:hover{
-  /* background-color: #4cbbb9 ; */
-  background-color: #d6e0f0 ;
+  background-color: #dddddd ;
   text-decoration: none;
 }
 
@@ -98,8 +110,8 @@ li{
 
 .item{
  padding: 1.25rem;
- margin: 1.875rem 5rem 1.875rem 5rem ;
- background-color: #f1f3f8 ;
+ margin: 1.875rem 4rem 1.875rem 4rem ;
+ background-color: #f6f5f5 ;
 }
 
 
@@ -114,28 +126,35 @@ li{
   display: inline !important ;
 }
 
+#width-change:focus{
+  outline: 0;
+  box-shadow: 0px 0px 3px #6e6d6d !important;
+  border-color: white !important ;
+}
+
 .add-btn{
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 50%;
-    border-color: transparent;
-    background-color: #007bff;
     color: #fff;
     font-size: 1.5625rem;
     border-width: 0;
+    background-color: #145374 !important;
+    border-color: #145374 !important;
 }
 
 .add-btn:hover{
-  background-color: #0069d9;
+  background-color: #2a3d66 !important ;
 }
 
 .search{
   background-color: #f6f5f5 ;
   display: inline-block;
-  padding: 2.25rem ;
-  margin: 0.7rem 1.25rem 1.875rem 1.25rem ;
-  position: relative;
-  left: 2.865rem;
+  padding: 2.15rem ;
+  margin-left:  2.25rem ;
+  margin-right: 2.25rem ;
+  margin-top: 0.6rem ;
+  margin: 0.6rem 2.25rem 1.775rem 2.25rem ;
 }
 
 
@@ -146,3 +165,4 @@ li{
 .search-item{
   margin: 0.3125rem;
 }
+
