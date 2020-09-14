@@ -37,11 +37,14 @@ body{
 .navbarButton{
   position: absolute;
   right: 0px;
-  top: -12px;
+  top: -25px;
+  background-color: #083b4f !important;
+  padding:2px auto;
 }
-.navbar-toggler-icon{
-  background-color:#083b4f !important;
+.navbarToggleIcon{
+  color:#fff;
 }
+
 .navbar-toggler-image{
   height:15px;
   width:15px;

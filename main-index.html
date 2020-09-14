@@ -18,18 +18,18 @@
     <link rel="stylesheet" href="files/assets/css/theme-colors/default.css" id="style_color">
     <link rel="stylesheet" href="head.css" />
     <script>
-    function ToggleNavbar()
-    {
-        var element = document.getElementById("navbarTogglerDemo01");
-            if(element.classList.length == 2)
-            {
-                element.classList.add("show");
-            }
-            else if(element.classList.length == 3)
-            {
-                element.classList.remove("show");
-            }
-    }
+        function ToggleNavbar()
+        {
+            var element = document.getElementById("navbarTogglerDemo01");
+                if(element.classList.length == 2)
+                {
+                    element.classList.add("show");
+                }
+                else if(element.classList.length == 3)
+                {
+                    element.classList.remove("show");
+                }
+        }
     </script>
 </head>
 <body>
@@ -74,8 +74,8 @@
         <div class="navbar navbar-expand-lg">
             <div class="row">
                 <button class="navbar-toggler navbarButton" type="button" onclick="ToggleNavbar()" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><img src="./files/myicons/MyIcons/EquivalentSymbol.svg" class="navbar-toggler-image"></img></span>
-                    <!--  ≡ -->
+                    <span class="fa fa-bars navbarToggleIcon"></span>
+                    
                 </button>
             </div>
 
