@@ -4,11 +4,23 @@ body{
     line-height: 1.42857143;
     color: #333;
 }
+.logo img{
+  width: 80%;
+}
 
 .Right_logo img {
-    width: 8%;
+    width: 40px;
     float: right;
     margin-left: 10px;
+}
+@media screen and (max-width:576px)
+{
+  .logo img{
+    width:60px;
+  }
+  .Right_logo img{
+    width:30px;
+  }
 }
 .Right_logo p {
     font-size: 12px;
@@ -58,9 +70,15 @@ body{
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent;
-    transition: all 1s ease-out;
+    transition: collapse 1s ease-out;
 }
-
+@media screen and (max-width:990px)
+{
+  .navbar{
+    margin-bottom: -10px;
+  }
+  
+}
 .nav {
     padding-left: 0;
     margin-bottom: 0;
