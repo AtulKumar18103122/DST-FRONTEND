@@ -11,26 +11,34 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../../assets/css/footers/footer-v1.css">
-    <link rel="stylesheet" href="../../../assets/css/headers/header-default.css">
+    <link rel="stylesheet" href="./files/assets/css/footers/footer-v1.css">
+    <link rel="stylesheet" href="./files/assets/css/headers/header-default.css">
+    <!-- <link rel="stylesheet" href="files/assets/plugins/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../assets/css/theme-colors/default.css" id="style_color">
-    <link rel="stylesheet" href="../../../../head.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="files/assets/css/theme-colors/default.css" id="style_color">
+    <link rel="stylesheet" href="head.css" />
+
+    <!-- My links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- my css file -->
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <!-- icons(font awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
 </head>
 <body>
 <div class="wrapper">
-<!--***************************************************************************************************-->
+
 <!--=== Header ===-->
 <div class="header ">
     <div class="container">
         <div class="row">
             <!-- Logo -->
-            <div class="col-md-6">
-                <a class="logo" href="../../../../index.html"><img style="width:90px; height:90px" src="../../../pec_logo2.png" alt="Pec Logo"></a>
+            <div class="col-sm-6 mb-2">
+                <a class="logo" href="index.html"><img src="./files/pec_logo2.png" alt="Pec Logo"></a>
                 <p style="position: absolute; left: 110px; top:20px">  <b>Punjab Engineering College</b>  <br>
                                 (Deemed to be University)  <br>Chandigarh
                 </p><br>
@@ -38,9 +46,9 @@
             <!-- End Logo -->
 
             <!-- Topbar -->
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <div class="topbar">
-                    <div id="Right_logo" class="Right_logo"><img src="../../../mhrd_logo.png" alt="MHRD Logo">
+                    <div id="Right_logo" class="Right_logo"><img src="./files/mhrd_logo.png" alt="MHRD Logo">
                         <p>  <b>A GoI Project</b>  <br>
                                         Department of Science<br>and Technology
                         </p><br>
@@ -52,7 +60,6 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    
     <div class="container">
         <div class="navbar navbar-expand-lg">
             <div class="row">
@@ -85,89 +92,64 @@
             </div>
         </div>
         <!--/navbar-collapse-->
-    
+            
     </div>
 </div>
-<!--***************************************************************************************-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="title-box-text text-left">Add Question</h1>
-            <div>
-                <form>
-                <div class="row mb-2">
-                <!-- Text Editor-->
-                    <div class="col-md-7">
-                        <div class="form-group">
-                            <label for="QuestionTitle">Title</label>
-                            <input type="text" class="form-control" id="QuestionTitle" placeholder="Enter title">
-                        </div>
-                        <div class="form-group">
-                            <label for="questionDetail">Describe Here</label>
-                            <textarea class="form-control" id="questionDetail" rows="10"></textarea>
-                        </div>
-                    </div>
-                <!-- Text Editor Ends-->
-                    <div class="col-sm-1">
 
-                    </div>
-                <!-- Categories/ Tags Selection -->
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="QuestionCategory">Categories </label><span class="AddCategoriesIcon"><button type="button" title="Add Category" data-toggle="modal" data-target="#AddCategoryModal"><i class="fa fa-plus" aria-hidden="true"></i></button></span><br/>
-                                <!-- Modal to input a new category -->
-                                <div class="modal fade" id="AddCategoryModal">
-                                <div class="modal-dialog" >
-                                    <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="AddCategoryModalLabel">Add Category</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body container">
-                                        <div class="row">
-                                            <div class="form-group ModalForm">
-                                            <label>Category</label>
-                                            <input type="text" class="form-control" id="NewCategory" placeholder="Enter Category">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-success">Add</button>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
+<!-- *********************************************** -->
 
-                            <select class="selectpicker QuestionCategorySelect" id="QuestionCategory" placeholder="Select" multiple>
-                                <option value="Coding">Coding</option>
-                                <option value="Mathematics">Mathematics</option>
-                                <option value="Physics">Physics</option>
-                                <option value="Electrodynamics">Electrodyamics</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="questionTags">Tags</label>
-                            <textarea class="form-control" id="questionTags" rows="2"></textarea>
-                        </div>
-                    </div>
-                    <!-- Categories/ Tags Selection Ends -->
-                </div>
-
-                    <button type="preview" class="btn btn-primary mr-3">Preview</button>
-                    <button type="submit" class="btn btn-success ml-3">Submit</button>
-                </form>
-            </div>
+<div class="header1">        
+        <div class="container">
+            <span>Login</span>
+            <span class="align">Login</span>
+            <span class="align space">/</span>
+            <span class="align"><a href="#">Home</a></span>         
         </div>
     </div>
-</div>
 
+    <div class="style">
+        <button class="btn btn-sm btn-primary btn-block" id="facebook"><i class="fab fa-facebook"></i> Facebook</button>
+        <button class="btn btn-sm btn-danger btn-block" id="google"><i class="fab fa-google"></i> Google</button>
+        <button class="btn btn-sm btn-info btn-block" id="linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
+        <br>
+        <div class="row">
+            <div class="col-md-5"><hr class="dark"></div>
+            <div class="col-md-2">
+            <h3 class="text-muted d-flex justify-content-center">OR</h3>
+            </div>
+            <div class="col-md-5"><hr class="dark"></div>
+        </div>
+        
+        <div class="myforms">
+            <div>
+                <h3 class="font">Login to your account</h3><br>
+            </div>
 
+            <form action="#" method="post" class="needs-validation was-validated">          
+                    <div class="form-group">          
+                        <input class="form-control" type="text" name="username" placeholder="Email or Username" area required>
+                        <div class="invalid-feedback">
+                            Please provide a valid username.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="Password" required>
+                        <div class="invalid-feedback">
+                            Please provide a Password.
+                        </div>
+                        <a href="#">forgot password?</a>
+                        <p>Don't have an account? <a href="#">Register</a></p>
+                    </div>
+                  
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block" id="login"><i class="fas fa-sign-in-alt"></i> Login</button>
+                    </div>
+            </form>
+        </div>
+    </div>
 
-<!--***************************************************************************************-->
+<!-- *********************************************** -->
+
 <!--=== Footer Version 1 ===-->
 <div class="footer-v1 mt-5">
     <div class="footer" >
@@ -177,12 +159,12 @@
 
                 <!-- Latest -->
                 <div class="col-md-9">
-                    <div class="headline"><h2>Developed and Maintained By:</h2></div>
+                    <div class="headline mb-2"><h2>Developed and Maintained By:</h2></div>
                 <!-- Link List -->
                     <!--/col-md-3-->
                 <!-- End Link List -->
 
-                    <ul class="list-unstyled who margin-bottom-30" style="color: #F7F7F7;">
+                    <ul class="list-unstyled who margin-bottom-30 mt-3" style="color: #F7F7F7;">
                         <li style="color: #eee;">
                             Punjab Engineering College<br/>
                             (Deemed to be University)<br/>
@@ -229,33 +211,6 @@
     </div><!--/footer-->
 </div>
 </div>
-<!--***************************************************************************************-->
-
-<!-- *******************  FILES  ***************************-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
-<script>
-    var editor = new Jodit('#editor');
-    editor.value = '<p>start</p>';
-</script>
-<script>
-/*------------------------For any customization/query related to editor visit : https://summernote.org/getting-started/            ---------------*/
- $(document).ready(function() {
-        $('#questionDetail').summernote({
-            toolbar: [['style', ['style']],['font', ['bold', 'underline', 'clear']],['fontname', ['fontname']],['color', ['color']],
-                    ['para', ['ul', 'ol', 'paragraph']],['table', ['table']],['insert', ['link', 'picture', 'video']], 
-                    ['view', ['help']],],
-            minHeight: 300,
-            maxHeight: 600,
-            lineHeights:0.8
-            
-            });
-    });
-
-</script>
-
-
-
 
 </body>
 
