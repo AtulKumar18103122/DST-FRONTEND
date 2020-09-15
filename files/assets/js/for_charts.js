@@ -1798,5 +1798,30 @@ AmCharts.makeChart("chart_div_13",
     }
 );
 function top5() {
-    document.getElementById("var_disc_data").scrollIntoView(true);    
+    document.getElementById("chart_div").scrollIntoView(); 
+}
+function top6() {
+    document.getElementById("var_disc_data").scrollIntoView(); 
+}function top7() {
+    document.getElementById("chart_div_3").scrollIntoView(); 
+}function top8() {
+    document.getElementById("chart_div_4").scrollIntoView(); 
+}function top9() {
+    document.getElementById("chart_div_5").scrollIntoView(); 
+}function top10() {
+    document.getElementById("chart_div_6").scrollIntoView(); 
+}function top11() {
+    document.getElementById("chart_div_7").scrollIntoView(); 
+}function top12() {
+    document.getElementById("chart_div_8").scrollIntoView(); 
+}function top13() {
+    document.getElementById("chart_div_9").scrollIntoView(); 
+}function top14() {
+    document.getElementById("chart_div_10").scrollIntoView(); 
+}function top15() {
+    document.getElementById("chart_div_11").scrollIntoView(); 
+}function top16() {
+    document.getElementById("chart_div_12").scrollIntoView(); 
+}function top17() {
+    document.getElementById("chart_div_13").scrollIntoView(); 
 }
