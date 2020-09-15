@@ -1,0 +1,98 @@
+.style{
+	max-width: 80%;
+	width:40%;
+	margin: 50px auto;
+}
+
+
+#linkedin{
+	background-color: #0083a8;
+}
+
+#google{
+	background-color: #dd4a38;
+	margin-bottom: 15px;
+}
+
+#facebook{
+	background-color: #3b5998;
+	margin-bottom: 15px;
+}
+
+button#google:hover{
+	background-color: white;
+	color:#dd4a38;
+	font-weight:bold;
+}
+
+button#linkedin:hover{
+	background-color: white;
+	color:#0083a8;
+	font-weight:bold;
+}
+
+button#facebook:hover{
+	background-color: white;
+	color:#3b5998;
+	font-weight:bold;
+}
+
+#login{
+	background-color: #083b4f;
+}
+
+div.myforms{
+		margin-top:20px;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+        padding:30px;
+}
+
+.dark{
+	border-top: 1px #C0C0C0 solid;
+}
+
+.font{
+	font-family: Raleway;
+	font-size: 20px;
+}
+
+.header1{
+	padding: 20px 0 20px;
+	border-bottom: solid 1px #eee;
+    background: rgb(252, 252, 252);
+}
+
+.header1 span{
+	    color: #666;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+}
+
+.header1 span.align{
+	float:right;
+	padding-bottom: 100px;
+	font-size: 13px;
+}
+
+.space{
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+.header1 span a{
+	color: #a4a4a4;
+}
+
+.header1 span a:hover{
+	color: #0b0c7d;
+}
+
+input:invalid{
+	background-color: #ffe6e6;
+}
+
+input:valid{
+	background-color: #e6ffe6;
+}

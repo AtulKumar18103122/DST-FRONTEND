@@ -103,8 +103,8 @@ opacity:0.664;
 .CategoryAccordianCardBody{
     padding: 0px !important;
     border-radius: 10px !important;
-    background-color: var(--light-blue);
-    border: 2px solid var(--grey-blue);
+    background-color: #f7f7f7;
+    border: 2px solid #eee;
 
 }
 .CategoryAccordianCardBody .AccordianButtonsSection{
@@ -119,15 +119,21 @@ opacity:0.664;
 .CategoryAccordianCardBody .AccordianButtonsSection .CategoryTile button{
     color:var(--color-white);
     border-radius:6px !important;
+    background-color: #088dc7;
 }
 .CategoryAccordianCardBody .AccordianButtonsSection .CategoryTile button:hover{
-    background-color: var(--violet-blue);
+    background-color: rgb(55, 167, 211);
     
 }
 
 .SearchPagination{
     font-size: 1.2rem;
 }
+.SearchPagination:hover{
+    color:#fff;
+    background-color: rgb(33, 92, 141) !important;
+}
+
 /******************************************************/
 /*Trending Bar*/
 .TrendingSection{
@@ -149,4 +155,8 @@ opacity:0.664;
 .QuestionCategorySelect{
     width:100% !important;
     border-radius:10px;
+}
+
+.TrendingListLink a:hover{
+ color:rgb(37, 37, 172) !important;
 }
