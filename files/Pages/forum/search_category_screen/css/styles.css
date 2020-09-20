@@ -77,7 +77,7 @@ a{
     background-color: var(--light-greyLightest) !important;
     padding:1px 2rem;
     border: 2px solid var(--light-grey-Darker);
-    border-radius: 10px !important;
+    /*border-radius: 10px !important;*/
 }
 
 .CategoryAccordianCardHeader p{
@@ -89,7 +89,7 @@ opacity:0.664;
     margin-top: 10px;
     text-align: left !important;
     padding:1rem !important;
-    border-radius: 20px !important;
+    /*border-radius: 20px !important;*/
 
     background-color: var(--light-greyLightest) !important;
     
@@ -102,7 +102,7 @@ opacity:0.664;
 }
 .CategoryAccordianCardBody{
     padding: 0px !important;
-    border-radius: 10px !important;
+    /*border-radius: 10px !important;*/
     background-color: #f7f7f7;
     border: 2px solid #eee;
 
@@ -118,7 +118,7 @@ opacity:0.664;
 }
 .CategoryAccordianCardBody .AccordianButtonsSection .CategoryTile button{
     color:var(--color-white);
-    border-radius:6px !important;
+    /*border-radius:6px !important;*/
     background-color: #088dc7;
 }
 .CategoryAccordianCardBody .AccordianButtonsSection .CategoryTile button:hover{
@@ -142,7 +142,7 @@ opacity:0.664;
 .TrendingSectionHeading{
     padding: 10px 2px;
     font-size: 1.5rem;
-    border-radius:10px;
+    /*border-radius:10px;*/
 }
 .TrendingSectionHeading i{
     display: inline-block;
@@ -154,7 +154,7 @@ opacity:0.664;
 }
 .QuestionCategorySelect{
     width:100% !important;
-    border-radius:10px;
+    /*border-radius:10px;*/
 }
 
 .TrendingListLink a:hover{
