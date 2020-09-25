@@ -99,11 +99,19 @@ div.myforms{
 .header1 span a:hover{
 	color: #0b0c7d;
 }
-
+/*
 input:invalid{
 	background-color: #ffe6e6;
+	border: #dc3545 solid 1px;
 }
 
 input:valid{
 	background-color: #e6ffe6;
+	border: #28a745 solid 1px;	
+}*/
+
+.error-message{
+	color: #dc3545;
+	display: none;
 }
+
